@@ -3,24 +3,29 @@
 /* ---------------------------------------------------------------- Colors */
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #525252;
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #525252;
 }
 
 .ui-menu-color-cv {
-    background-color: #9b59b6;
+    background-color: #525252;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #525252;
 }
 
 .ui-menu-color-download {
     background-color: #525252;
 }
+
+a.hover:hover {
+    color: #000;
+}
+
 /* ---------------------------------------------------------------- Heading */
 header {
     margin: 0;
@@ -101,4 +106,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/* ---------------------------------------------------------------- Hover.css */
+
+.hvr-sweep-to-bottom::before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 135px;
 }
