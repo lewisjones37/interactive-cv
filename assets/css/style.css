@@ -25,9 +25,7 @@
     background-color: #525252;
 }
 
-a.hover:hover {
-    color: #000;
-}
+
 
 /* ---------------------------------------------------------------- Special paddongs/margins/text */
 
@@ -155,10 +153,10 @@ header {
 }
 /* ---------------------------------------------------------------- Hover.css */
 
-.hvr-sweep-to-bottom::before {
+    .hvr-sweep-to-bottom::before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 135px;
-}
+} 
 
 /* ---------------------------------------------------------------- Footer */
 footer {
